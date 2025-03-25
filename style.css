@@ -50,7 +50,7 @@ body {
     font-size: 1.2em;
 }
 .article  ul li{
-  list-style-type: none;
+
   line-height: 1;
   margin:10px 0;
   text-align: left;
@@ -161,6 +161,9 @@ body {
     }
     .article p {
         font-size: 1em;
+    }
+    .article  ul li{
+      padding-left: 1vw;
     }
     .posting{
       padding:0;
