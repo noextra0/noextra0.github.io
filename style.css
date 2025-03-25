@@ -60,6 +60,8 @@ body {
 .posting {
     text-align: center;
     padding: 60px 20px;
+    width:80%;
+    margin:0 auto;
 
 }
 .posting h1 {
