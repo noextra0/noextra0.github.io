@@ -53,6 +53,8 @@ body {
   list-style-type: none;
   line-height: 1;
   margin:10px 0;
+  text-align: left;
+  padding-left: 10vw;
 }
 .article  ul li a{
   text-decoration: none;
