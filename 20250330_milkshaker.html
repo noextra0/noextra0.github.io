@@ -35,60 +35,50 @@
     <main class="main">
         <section class="posting">
           <style>
-            /* 예: 블로그 글 본문 영역만 좌측 정렬 (GitHub 블로그, Jekyll용) */
-            .post {
-              text-align: left;
-              font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-              font-size: 16px;
-              line-height: 1.6;
-              color: #222;
-            }
+  /* 포스트 본문 전용 스타일 (class="post") */
+  .post {
+    text-align: left;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+  }
 
-            .post h1, .post h2, .post h3, .post h4, .post h5 {
-              text-align: left;
-              margin-top: 2rem;
-              margin-bottom: 1rem;
-            }
+  /* 제목도 좌측 정렬 */
+  .post h1, .post h2, .post h3, .post h4 {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 
-            .post p {
-              margin: 1rem 0;
-            }
+  /* 리스트 정리 */
+  .post ul, .post ol {
+    padding-left: 1.5rem;
+  }
 
-            .post ul, .post ol {
-              padding-left: 1.5rem;
-            }
+  /* 표: 중앙 정렬, 내부는 좌측 정렬 */
+  .post table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    font-size: 15px;
+    text-align: left;
+  }
 
-            .post table {
-              margin: 2rem auto;
-              border-collapse: collapse;
-              width: 100%;
-              max-width: 800px;
-              text-align: left;
-              font-size: 15px;
-            }
+  .post th, .post td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
 
-            .post th, .post td {
-              padding: 12px;
-              border: 1px solid #ccc;
-              vertical-align: top;
-            }
+  .post th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  </style>
 
-            .post th {
-              background-color: #f8f8f8;
-              font-weight: bold;
-            }
-
-            @media screen and (max-width: 600px) {
-              .post {
-                font-size: 15px;
-                padding: 1rem;
-              }
-              .post table, .post thead, .post tbody, .post th, .post td, .post tr {
-                display: block;
-                width: 100%;
-              }
-            }
-          </style>
 
 
           <h1>🍼 분유쉐이커 추천 비교 | 꿈비, 앙팡케어, 마베비 3가지 제품 총정리</h1>
