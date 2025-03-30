@@ -1,4 +1,60 @@
 <!DOCTYPE html>
+<style>
+  /* 전체 본문 글자 정렬 및 글꼴 설정 */
+  body {
+    text-align: left;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #222;
+  }
+
+  /* 제목(h1~h3)은 좌측 정렬 */
+  h1, h2, h3 {
+    text-align: left;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* 일반 문단도 여백 확보 */
+  p {
+    margin: 0.8rem 0;
+  }
+
+  /* 표는 가운데 정렬되도록 하고, 내용은 좌측 정렬 */
+  table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+
+  /* 반응형을 위한 최소 스타일 */
+  @media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 100%;
+    }
+    table {
+      font-size: 14px;
+    }
+  }
+</style>
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
