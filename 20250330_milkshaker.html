@@ -1,77 +1,5 @@
 <!DOCTYPE html>
 
-<style>
-  /* 전체 본문 스타일 */
-  body {
-    text-align: left;
-    font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #222;
-    margin: 0 auto;
-    max-width: 860px;
-    padding: 2rem 1rem;
-  }
-
-  /* 제목 정렬 - 좌측 */
-  h1, h2, h3, h4, h5, h6 {
-    text-align: left;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  /* 문단 여백 */
-  p {
-    margin: 1rem 0;
-  }
-
-  /* 목록도 좌측 정렬 */
-  ul, ol {
-    padding-left: 1.5rem;
-    text-align: left;
-  }
-
-  /* 테이블 중앙에 위치하지만 내부 텍스트는 좌측 */
-  table {
-    margin: 2rem auto;
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 800px;
-    text-align: left;
-    font-size: 15px;
-  }
-
-  th, td {
-    padding: 12px;
-    border: 1px solid #ccc;
-    vertical-align: top;
-  }
-
-  th {
-    background-color: #f8f8f8;
-    font-weight: bold;
-  }
-
-  /* 반응형 대응 */
-  @media screen and (max-width: 600px) {
-    body {
-      font-size: 15px;
-      padding: 1rem;
-    }
-
-    table, thead, tbody, th, td, tr {
-      display: block;
-      width: 100%;
-    }
-
-    table {
-      font-size: 14px;
-    }
-  }
-</style>
-
-
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -106,6 +34,63 @@
 
     <main class="main">
         <section class="posting">
+          <style>
+            /* 예: 블로그 글 본문 영역만 좌측 정렬 (GitHub 블로그, Jekyll용) */
+            .post {
+              text-align: left;
+              font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+              font-size: 16px;
+              line-height: 1.6;
+              color: #222;
+            }
+
+            .post h1, .post h2, .post h3, .post h4, .post h5 {
+              text-align: left;
+              margin-top: 2rem;
+              margin-bottom: 1rem;
+            }
+
+            .post p {
+              margin: 1rem 0;
+            }
+
+            .post ul, .post ol {
+              padding-left: 1.5rem;
+            }
+
+            .post table {
+              margin: 2rem auto;
+              border-collapse: collapse;
+              width: 100%;
+              max-width: 800px;
+              text-align: left;
+              font-size: 15px;
+            }
+
+            .post th, .post td {
+              padding: 12px;
+              border: 1px solid #ccc;
+              vertical-align: top;
+            }
+
+            .post th {
+              background-color: #f8f8f8;
+              font-weight: bold;
+            }
+
+            @media screen and (max-width: 600px) {
+              .post {
+                font-size: 15px;
+                padding: 1rem;
+              }
+              .post table, .post thead, .post tbody, .post th, .post td, .post tr {
+                display: block;
+                width: 100%;
+              }
+            }
+          </style>
+
+
           <h1>🍼 분유쉐이커 추천 비교 | 꿈비, 앙팡케어, 마베비 3가지 제품 총정리</h1>
 
 <p>분유 수유를 반복하다 보면 손목 피로와 분유 뭉침, 기포 등 다양한 불편함을 겪게 됩니다. 이를 해결해주는 실용적인 제품이 바로 <strong>분유쉐이커</strong>입니다.</p>
