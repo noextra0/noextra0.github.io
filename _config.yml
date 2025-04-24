@@ -1,0 +1,4 @@
+url: "https://noextra0.github.io"
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
