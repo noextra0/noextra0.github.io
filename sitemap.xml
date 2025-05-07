@@ -1,63 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://noextra0.github.io/20250224.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/</loc>
+  <lastmod>2025-04-24T08:51:07+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250225_1.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250224.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250225_2.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250226_1.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250226_1.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250225_2.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250227.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250225_1.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250308.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250227.html</loc>
+  <lastmod>2025-04-24T08:51:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250318.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250308.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250328_seoulaccount.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250318.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/20250330_milkshaker.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250328_seoulaccount.html</loc>
+  <lastmod>2025-04-24T08:51:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://noextra0.github.io/footer.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
+  <loc>https://noextra0.github.io/20250330_milkshaker.html</loc>
+  <lastmod>2025-04-24T08:51:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-<loc>https://noextra0.github.io/google92f09357f2c6e1a8.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
-</url>
-<url>
-<loc>https://noextra0.github.io/header.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
-</url>
-<url>
-<loc>https://noextra0.github.io/</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
-</url>
-<url>
-<loc>https://noextra0.github.io/recommend.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
-</url>
-<url>
-<loc>https://noextra0.github.io/sitemap.html</loc>
-<lastmod>2025-04-24T05:45:18+00:00</lastmod>
-</url>
+
+
 </urlset>
