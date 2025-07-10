@@ -172,3 +172,48 @@ body {
 
     }
 }
+.featured-posts {
+  margin-top: 60px;
+}
+
+.featured-posts h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.post-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  flex: 1 1 calc(33.333% - 20px);
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.post p {
+  font-size: 0.95em;
+  color: #333;
+}
+
+.read-more {
+  color: #3366cc;
+  font-weight: bold;
+}
