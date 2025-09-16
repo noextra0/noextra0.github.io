@@ -144,6 +144,7 @@ body {
 .footer .social-links a:hover {
     color: #6c5ce7;
 }
+.main{width:100vw;max-width:1920px;}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -172,7 +173,7 @@ body {
 
     }
     .img{
-      width:100%;
+      width:80%;
       max-width:760px;
     }
 
