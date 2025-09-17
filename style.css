@@ -129,7 +129,7 @@ body {
 }
 /* 신규 바디 스타일시트*/
 
-
+li{list-style: none;}
 #newmain{
   width:100%;
 }
