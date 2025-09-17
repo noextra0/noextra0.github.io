@@ -127,7 +127,15 @@ body {
 .read-more:hover {
     text-decoration: underline;
 }
-
+/* 신규 바디 스타일시트*/
+#newmain{
+  width:100%;
+}
+.abox{
+  width:95%;margin:0 auto;padding:10px;
+}
+.newimg{width:50%;margin:0 auto;}
+/* 신규 바디 스타일시트 끝*/
 
 .footer {
     text-align: center;
