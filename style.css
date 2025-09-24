@@ -128,13 +128,18 @@ body {
     text-decoration: underline;
 }
 /* 신규 바디 스타일시트*/
+
+li{list-style: none;}
 #newmain{
   width:100%;
 }
 .abox{
-  width:95%;margin:0 auto;padding:10px;
+  width:95%;margin:0 auto;padding:10px;text-align:center;
 }
 .newimg{width:50%;margin:0 auto;}
+
+
+
 /* 신규 바디 스타일시트 끝*/
 
 .footer {
